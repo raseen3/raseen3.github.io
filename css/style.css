@@ -162,6 +162,9 @@ footer {
   main {
     grid-template-columns: 1fr;
   }
+  img {
+    height: 40vh;
+  }
   .description {
     font-size: 18px;
   }
