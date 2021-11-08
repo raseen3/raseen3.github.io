@@ -55,7 +55,8 @@ h2 {
 
 img {
   width: 100%;
-  height: auto;
+  height: 50vh;
+  object-fit: cover;
 }
 
 .wrapper {
@@ -155,4 +156,13 @@ img {
 
 footer {
   margin-top: 44px;
+}
+
+@media all and (max-width:700px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .description {
+    font-size: 18px;
+  }
 }
