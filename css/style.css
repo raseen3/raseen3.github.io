@@ -24,6 +24,10 @@ header {
   display: flex;
 }
 
+nav {
+  box-sizing: border-box;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
